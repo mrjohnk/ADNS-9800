@@ -2,9 +2,8 @@
 
 #include <avr/pgmspace.h>
 
-// Firmware "adns9500_srom_A0.txt" from 
-// http://avagotech.com/pages/en/navigation_interface_devices/navigation_sensors/laserstream/adns-9500/
-// This firmware is Copyright 2010 Avago, please refer to them concerning modifications.
+// Firmware "adns9800_srom_A4.txt" from 
+// This firmware is Copyright Avago, please refer to them concerning modifications.
 
 const unsigned short firmware_length = 3070;
 
