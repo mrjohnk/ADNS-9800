@@ -1012,15 +1012,15 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C11" library="capsmd" deviceset="C0603" device="" value="1uF"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.8K"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3.3K"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.8K"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3.3K"/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.8K"/>
 <part name="SJ5" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3.3K"/>
 <part name="SJ6" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
 </parts>
 <sheets>
