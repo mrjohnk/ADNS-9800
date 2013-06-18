@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="3.937008" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -265,22 +265,22 @@
 <wire x1="-13" y1="-10.9" x2="0.5" y2="-10.9" width="0.127" layer="20"/>
 <wire x1="0.5" y1="-10.9" x2="0.5" y2="-1.7" width="0.127" layer="20"/>
 <circle x="-5.02" y="-6.3" radius="0.3" width="0.08" layer="48"/>
-<pad name="P$1" x="0" y="0" drill="0.7" diameter="1.3" shape="square"/>
-<pad name="P$2" x="-1.78" y="0" drill="0.7" diameter="1.3"/>
-<pad name="P$3" x="-3.56" y="0" drill="0.7" diameter="1.3"/>
-<pad name="P$4" x="-5.34" y="0" drill="0.7" diameter="1.3"/>
-<pad name="P$5" x="-7.12" y="0" drill="0.7" diameter="1.3"/>
-<pad name="P$6" x="-8.9" y="0" drill="0.7" diameter="1.3"/>
-<pad name="P$7" x="-10.68" y="0" drill="0.7" diameter="1.3"/>
-<pad name="P$8" x="-12.46" y="0" drill="0.7" diameter="1.3"/>
-<pad name="P$16" x="0" y="-12.6" drill="0.7" diameter="1.3"/>
-<pad name="P$15" x="-1.78" y="-12.6" drill="0.7" diameter="1.3"/>
-<pad name="P$14" x="-3.56" y="-12.6" drill="0.7" diameter="1.3"/>
-<pad name="P$13" x="-5.34" y="-12.6" drill="0.7" diameter="1.3"/>
-<pad name="P$12" x="-7.12" y="-12.6" drill="0.7" diameter="1.3"/>
-<pad name="P$11" x="-8.9" y="-12.6" drill="0.7" diameter="1.3"/>
-<pad name="P$10" x="-10.68" y="-12.6" drill="0.7" diameter="1.3"/>
-<pad name="P$9" x="-12.46" y="-12.6" drill="0.7" diameter="1.3"/>
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.3" shape="square"/>
+<pad name="P$2" x="-1.78" y="0" drill="0.8" diameter="1.3"/>
+<pad name="P$3" x="-3.56" y="0" drill="0.8" diameter="1.3"/>
+<pad name="P$4" x="-5.34" y="0" drill="0.8" diameter="1.3"/>
+<pad name="P$5" x="-7.12" y="0" drill="0.8" diameter="1.3"/>
+<pad name="P$6" x="-8.9" y="0" drill="0.8" diameter="1.3"/>
+<pad name="P$7" x="-10.68" y="0" drill="0.8" diameter="1.3"/>
+<pad name="P$8" x="-12.46" y="0" drill="0.8" diameter="1.3"/>
+<pad name="P$16" x="0" y="-12.6" drill="0.8" diameter="1.3"/>
+<pad name="P$15" x="-1.78" y="-12.6" drill="0.8" diameter="1.3"/>
+<pad name="P$14" x="-3.56" y="-12.6" drill="0.8" diameter="1.3"/>
+<pad name="P$13" x="-5.34" y="-12.6" drill="0.8" diameter="1.3"/>
+<pad name="P$12" x="-7.12" y="-12.6" drill="0.8" diameter="1.3"/>
+<pad name="P$11" x="-8.9" y="-12.6" drill="0.8" diameter="1.3"/>
+<pad name="P$10" x="-10.68" y="-12.6" drill="0.8" diameter="1.3"/>
+<pad name="P$9" x="-12.46" y="-12.6" drill="0.8" diameter="1.3"/>
 <text x="-7.025" y="-7.625" size="0.5" layer="48">Optical Center</text>
 </package>
 <package name="MCP1700__LDO">
@@ -699,7 +699,7 @@ design rules under a new name.</description>
 <wire x1="6.0433" y1="21.479" x2="6.0433" y2="20.7239" width="0.17" layer="1"/>
 <wire x1="6.1857" y1="15.7224" x2="6.2226" y2="14.9655" width="0.17" layer="16"/>
 <wire x1="6.2226" y1="14.9655" x2="6.2226" y2="11.12" width="0.17" layer="16"/>
-<via x="6.1857" y="15.7224" extent="1-16" drill="0.793796875" diameter="1.4034"/>
+<via x="6.1857" y="15.7224" extent="1-16" drill="0.508" diameter="1.016"/>
 </signal>
 <signal name="SS">
 <contactref element="U$1" pad="P$3"/>
@@ -749,10 +749,11 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="R5" pad="2"/>
 <contactref element="JP1" pad="4"/>
-<via x="25.456396875" y="12.189271875" extent="1-16" drill="0.793796875" diameter="1.4034"/>
-<via x="29.314465625" y="11.819475" extent="1-16" drill="0.793796875" diameter="1.4034"/>
+<via x="25.456396875" y="12.189271875" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="29.314465625" y="11.819475" extent="1-16" drill="0.508" diameter="1.016"/>
 <wire x1="29.314465625" y1="11.819475" x2="28.94466875" y2="12.189271875" width="0.17" layer="16"/>
 <wire x1="28.94466875" y1="12.189271875" x2="25.456396875" y2="12.189271875" width="0.17" layer="16"/>
+<wire x1="12.4201" y1="6.3867" x2="12.4081" y2="9.936" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <via x="29.7656" y="16.2718" extent="1-16" drill="2.2606" diameter="3.81"/>
@@ -785,11 +786,11 @@ design rules under a new name.</description>
 <wire x1="21.0038" y1="6.4828" x2="21.0038" y2="5.1554" width="0.17" layer="1"/>
 <wire x1="21.0038" y1="5.1554" x2="21.2389" y2="4.9203" width="0.17" layer="1"/>
 <wire x1="21.3218" y1="6.4828" x2="21.0038" y2="6.4828" width="0.17" layer="1"/>
-<via x="14.4" y="24.4" extent="1-16" drill="0.793796875" diameter="1.4034"/>
-<via x="22.16" y="24.72" extent="1-16" drill="0.793796875" diameter="1.4034"/>
+<via x="14.4" y="24.4" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="22.16" y="24.72" extent="1-16" drill="0.508" diameter="1.016"/>
 <wire x1="14.4" y1="24.4" x2="14.72" y2="24.72" width="0.17" layer="1"/>
 <wire x1="14.72" y1="24.72" x2="22.16" y2="24.72" width="0.17" layer="1"/>
-<via x="23.76" y="5.44" extent="1-16" drill="0.793796875" diameter="1.4034"/>
+<via x="23.76" y="5.44" extent="1-16" drill="0.508" diameter="1.016"/>
 <wire x1="23.76" y1="5.44" x2="22.7172" y2="6.4828" width="0.17" layer="1"/>
 <wire x1="22.7172" y1="6.4828" x2="21.3218" y2="6.4828" width="0.17" layer="1"/>
 </signal>
@@ -934,7 +935,7 @@ design rules under a new name.</description>
 <contactref element="R6" pad="1"/>
 <wire x1="2.7193" y1="11.262" x2="3.2973" y2="11.12" width="0.17" layer="1"/>
 <wire x1="3.2973" y1="11.12" x2="4.35" y2="11.12" width="0.17" layer="1"/>
-<via x="2.7193" y="11.262" extent="1-16" drill="0.793796875" diameter="1.4034"/>
+<via x="2.7193" y="11.262" extent="1-16" drill="0.508" diameter="1.016"/>
 <wire x1="4.75" y1="11.12" x2="3.2973" y2="11.12" width="0.17" layer="16"/>
 <wire x1="3.2973" y1="11.12" x2="2.7193" y2="11.262" width="0.17" layer="16"/>
 </signal>
@@ -971,7 +972,7 @@ design rules under a new name.</description>
 <wire x1="4.35" y1="13.52" x2="4.19" y2="13.4049" width="0.17" layer="1"/>
 <wire x1="2.3434" y1="13.3728" x2="3.7579" y2="13.3728" width="0.17" layer="1"/>
 <wire x1="3.7579" y1="13.3728" x2="4.19" y2="13.4049" width="0.17" layer="1"/>
-<via x="2.3434" y="13.3728" extent="1-16" drill="0.793796875" diameter="1.4034"/>
+<via x="2.3434" y="13.3728" extent="1-16" drill="0.508" diameter="1.016"/>
 <wire x1="4.1774" y1="13.52" x2="4.1774" y2="13.3668" width="0.17" layer="16"/>
 <wire x1="4.1774" y1="13.3668" x2="2.3434" y2="13.3728" width="0.17" layer="16"/>
 </signal>
@@ -981,7 +982,7 @@ design rules under a new name.</description>
 <wire x1="4.35" y1="8.72" x2="4.6649" y2="8.32" width="0.17" layer="1"/>
 <wire x1="5.967890625" y1="6.6926375" x2="4.69973125" y2="7.14690625" width="0.17" layer="1"/>
 <wire x1="4.69973125" y1="7.14690625" x2="4.6649" y2="8.32" width="0.17" layer="1"/>
-<via x="5.967890625" y="6.6926375" extent="1-16" drill="0.793796875" diameter="1.4034"/>
+<via x="5.967890625" y="6.6926375" extent="1-16" drill="0.508" diameter="1.016"/>
 <wire x1="4.75" y1="8.72" x2="4.73259375" y2="7.114590625" width="0.17" layer="16"/>
 <wire x1="4.73259375" y1="7.114590625" x2="5.967890625" y2="6.6926375" width="0.17" layer="16"/>
 </signal>
@@ -1028,7 +1029,7 @@ design rules under a new name.</description>
 <wire x1="9.7626" y1="24.7616" x2="10.3045" y2="24.7616" width="0.17" layer="16"/>
 <wire x1="12.1817" y1="28.7813" x2="11.1138" y2="28.7813" width="0.17" layer="1"/>
 <wire x1="4.692" y1="19.12" x2="4.692" y2="20.0101" width="0.17" layer="16"/>
-<via x="10.3045" y="24.7616" extent="1-16" drill="0.793796875" diameter="1.4034"/>
+<via x="10.3045" y="24.7616" extent="1-16" drill="0.508" diameter="1.016"/>
 <wire x1="4.35" y1="19.12" x2="4.35" y2="19.8751" width="0.17" layer="1"/>
 </signal>
 </signals>
