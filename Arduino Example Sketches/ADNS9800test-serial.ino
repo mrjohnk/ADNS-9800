@@ -57,7 +57,7 @@ volatile byte movementflag=0;
 const int ncs = 10;
 
 extern const unsigned short firmware_length;
-extern const unsigned char firmware_data[];
+extern const char firmware_data[];
 
 void setup() {
   Serial.begin(9600);
